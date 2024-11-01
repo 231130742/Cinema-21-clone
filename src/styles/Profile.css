@@ -1,0 +1,53 @@
+.profile {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .profile-logo {
+    max-width: 300px;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .profile-content {
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  .profile-content a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .profile-content a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .profile {
+      padding: 15px;
+      font-size: 14px;
+    }
+  
+    .profile-image, .profile-logo {
+      width: 100%;
+    }
+  }
+  

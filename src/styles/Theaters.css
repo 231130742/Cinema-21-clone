@@ -1,0 +1,41 @@
+.theaters-container {
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #006563;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .theater-list {
+    border-top: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .theater-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .theater-name {
+    color: #006563;
+  }
+  
+  .theater-phone {
+    color: #555;
+  }
+  

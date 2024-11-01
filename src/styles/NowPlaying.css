@@ -1,0 +1,59 @@
+.nowplaying-page {
+  padding: 20px;
+}
+
+.container-upcoming {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-now {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-title-now {
+  
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: #006563;
+  /* margin-right: 15px; */
+  
+}
+
+.city-dropdown-container {
+  display: inline-flex;
+  align-items: center;
+  background-color:#d3d3d3 ;
+  padding: 0.76rem;
+}
+
+.city-dropdown {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: #d3d3d3; /* Gray background for city dropdown */
+  color: #333;
+  height: 100%; /* Match height with the "Now Playing" title */
+  cursor: pointer;
+}
+
+/* Remove the default arrow for a custom look */
+.city-dropdown::-ms-expand {
+  display: none;
+}
+
+.city-dropdown-container select:focus {
+  outline: none;
+}
+
+.movies-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
